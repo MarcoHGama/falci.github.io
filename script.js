@@ -65,3 +65,6 @@ for (let i=0; i<links.length; i++){
     tracking.forEach(track => link.addEventListener(track, () => ga('send', 'event', 'link', track, link.title), false));
   }
 }
+
+
+console.log('so um test')
